@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name keyboard_bottom)(type KiCad)(uri C:/Users/noah_/Documents/Designs/Keyboards/herringbone/keyboard2/keyboard_bottom)(options "")(descr ""))
+)
