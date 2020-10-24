@@ -2081,17 +2081,6 @@ $EndComp
 Wire Wire Line
 	8750 4850 8650 4850
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX68
-U 1 1 5F0877E7
-P 9150 4700
-F 0 "MX68" H 9183 4923 60  0000 C CNN
-F 1 "MX-NoLED" H 9183 4849 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 8525 4675 60  0001 C CNN
-F 3 "" H 8525 4675 60  0001 C CNN
-	1    9150 4700
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D_Small D67
 U 1 1 5F0877ED
 P 9000 4950
@@ -2104,17 +2093,6 @@ F 3 "~" V 9000 4950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9100 4850 9000 4850
-$Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX69
-U 1 1 5F0877F4
-P 9500 3850
-F 0 "MX69" H 9533 4073 60  0000 C CNN
-F 1 "MX-NoLED" H 9533 3999 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 8875 3825 60  0001 C CNN
-F 3 "" H 8875 3825 60  0001 C CNN
-	1    9500 3850
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:D_Small D68
 U 1 1 5F0877FA
@@ -2750,8 +2728,6 @@ Connection ~ 5150 3400
 Wire Wire Line
 	5150 3400 5500 3400
 Wire Wire Line
-	9300 3800 9300 3000
-Wire Wire Line
 	8650 3400 9000 3400
 Connection ~ 9000 4200
 Wire Wire Line
@@ -2799,49 +2775,6 @@ Connection ~ 7950 5050
 Connection ~ 8250 3800
 Wire Wire Line
 	7250 5050 7950 5050
-Connection ~ 9300 3800
-$Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX72
-U 1 1 5F0EB889
-P 7400 5300
-F 0 "MX72" H 7433 5523 60  0000 C CNN
-F 1 "MX-NoLED" H 7433 5449 20  0000 C CNN
-F 2 "MX_Only:MXOnly-3U-ReversedStabilizers-NoLED" H 6775 5275 60  0001 C CNN
-F 3 "" H 6775 5275 60  0001 C CNN
-	1    7400 5300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7550 5250 7550 4650
-Connection ~ 7550 4650
-Wire Wire Line
-	7350 5450 7150 5450
-Wire Wire Line
-	7150 5450 7150 4850
-Wire Wire Line
-	7150 4850 7250 4850
-Connection ~ 7250 4850
-$Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX73
-U 1 1 5F129B15
-P 8100 5300
-F 0 "MX73" H 8133 5523 60  0000 C CNN
-F 1 "MX-NoLED" H 8133 5449 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1.25U-NoLED" H 7475 5275 60  0001 C CNN
-F 3 "" H 7475 5275 60  0001 C CNN
-	1    8100 5300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8250 5250 8250 4650
-Connection ~ 8250 4650
-Wire Wire Line
-	8050 5450 7850 5450
-Wire Wire Line
-	7850 5450 7850 4850
-Wire Wire Line
-	7850 4850 7950 4850
-Connection ~ 7950 4850
 Text GLabel 2700 1700 2    50   Input ~ 0
 ROW0
 Text GLabel 2700 3600 2    50   Input ~ 0
@@ -2881,13 +2814,9 @@ Connection ~ 9650 3000
 Wire Wire Line
 	9650 3000 9650 3800
 Wire Wire Line
-	9300 3800 9300 4650
-Wire Wire Line
 	7950 5050 8300 5050
 Text GLabel 2700 3000 2    50   Input ~ 0
 COL14
-Text GLabel 2700 2300 2    50   Input ~ 0
-RGBIN
 Text GLabel 2700 3500 2    50   Input ~ 0
 ROW1
 Text GLabel 2700 1800 2    50   Input ~ 0
@@ -2900,42 +2829,38 @@ Connection ~ 8650 5050
 Wire Wire Line
 	8650 5050 9000 5050
 Connection ~ 8950 3800
-Text GLabel 5650 6100 0    50   Input ~ 0
+Text GLabel 9750 5400 0    50   Input ~ 0
 EN2
-Text GLabel 5650 5900 0    50   Input ~ 0
+Text GLabel 9750 5200 0    50   Input ~ 0
 EN1
 Wire Wire Line
-	5650 6000 5300 6000
+	9750 5300 9400 5300
 $Comp
 L power:GND #PWR0107
 U 1 1 5FF51463
-P 5300 6000
-F 0 "#PWR0107" H 5300 5750 50  0001 C CNN
-F 1 "GND" H 5305 5827 50  0000 C CNN
-F 2 "" H 5300 6000 50  0001 C CNN
-F 3 "" H 5300 6000 50  0001 C CNN
-	1    5300 6000
+P 9400 5300
+F 0 "#PWR0107" H 9400 5050 50  0001 C CNN
+F 1 "GND" H 9405 5127 50  0000 C CNN
+F 2 "" H 9400 5300 50  0001 C CNN
+F 3 "" H 9400 5300 50  0001 C CNN
+	1    9400 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Rotary_Encoder_Switch SW3
 U 1 1 5FEF8062
-P 5950 6000
-F 0 "SW3" H 5950 6367 50  0000 C CNN
-F 1 "Rotary_Encoder_Switch" H 5950 6276 50  0000 C CNN
-F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 5800 6160 50  0001 C CNN
-F 3 "~" H 5950 6260 50  0001 C CNN
-	1    5950 6000
+P 10050 5300
+F 0 "SW3" H 10050 5667 50  0000 C CNN
+F 1 "Rotary_Encoder_Switch" H 10050 5576 50  0000 C CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" H 9900 5460 50  0001 C CNN
+F 3 "~" H 10050 5560 50  0001 C CNN
+	1    10050 5300
 	1    0    0    -1  
 $EndComp
-Text GLabel 6400 5900 1    50   Input ~ 0
-COL14
-Text GLabel 6350 6100 2    50   Input ~ 0
-ROW4
 Wire Wire Line
-	6250 5900 6400 5900
+	10350 5200 10500 5200
 Wire Wire Line
-	6250 6100 6350 6100
+	10350 5400 10450 5400
 Text GLabel 2700 4500 2    50   Input ~ 0
 EN1
 Text GLabel 2700 2900 2    50   Input ~ 0
@@ -3041,28 +2966,6 @@ F 3 "~" H 6150 7000 50  0001 C CNN
 	1    6150 7000
 	1    0    0    -1  
 $EndComp
-$Comp
-L Mechanical:MountingHole H10
-U 1 1 5F1FE900
-P 6350 7000
-F 0 "H10" H 6450 7046 50  0000 L CNN
-F 1 "MountingHole" H 6450 6955 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 6350 7000 50  0001 C CNN
-F 3 "~" H 6350 7000 50  0001 C CNN
-	1    6350 7000
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H12
-U 1 1 5F2C5358
-P 6350 6800
-F 0 "H12" H 6450 6846 50  0000 L CNN
-F 1 "MountingHole" H 6450 6755 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 6350 6800 50  0001 C CNN
-F 3 "~" H 6350 6800 50  0001 C CNN
-	1    6350 6800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9550 1400 9650 1400
 Text GLabel 2700 3400 2    50   Input ~ 0
@@ -3083,14 +2986,114 @@ F 3 "~" H 6350 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H13
-U 1 1 5F56C269
-P 6550 7000
-F 0 "H13" H 6650 7046 50  0000 L CNN
-F 1 "MountingHole" H 6650 6955 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 6550 7000 50  0001 C CNN
-F 3 "~" H 6550 7000 50  0001 C CNN
-	1    6550 7000
+L Device:D_Small D72
+U 1 1 5F9801E6
+P 9950 5700
+F 0 "D72" H 9900 5550 50  0000 R CNN
+F 1 "D_Small" H 9905 5632 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" V 9950 5700 50  0001 C CNN
+F 3 "~" V 9950 5700 50  0001 C CNN
+	1    9950 5700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	10050 5700 10450 5700
+Wire Wire Line
+	10450 5700 10450 5400
+Wire Wire Line
+	10500 5200 10500 4850
+Wire Wire Line
+	9850 5700 9000 5700
+Wire Wire Line
+	9000 5700 9000 5050
+Connection ~ 9000 5050
+$Comp
+L Mechanical:MountingHole H13
+U 1 1 5F56C269
+P 6350 6800
+F 0 "H13" H 6450 6846 50  0000 L CNN
+F 1 "MountingHole" H 6450 6755 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad" H 6350 6800 50  0001 C CNN
+F 3 "~" H 6350 6800 50  0001 C CNN
+	1    6350 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX68
+U 1 1 5F0877E7
+P 9150 4700
+F 0 "MX68" H 9183 4923 60  0000 C CNN
+F 1 "MX-NoLED" H 9183 4849 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 8525 4675 60  0001 C CNN
+F 3 "" H 8525 4675 60  0001 C CNN
+	1    9150 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX69
+U 1 1 5F0877F4
+P 9500 3850
+F 0 "MX69" H 9533 4073 60  0000 C CNN
+F 1 "MX-NoLED" H 9533 3999 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 8875 3825 60  0001 C CNN
+F 3 "" H 8875 3825 60  0001 C CNN
+	1    9500 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 3800 9650 4850
+Wire Wire Line
+	9650 4850 10500 4850
+Connection ~ 9650 3800
+Wire Wire Line
+	9300 3000 9300 3800
+Connection ~ 9300 3800
+Wire Wire Line
+	9300 3800 9300 4650
+$Comp
+L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX71
+U 1 1 5F95CADB
+P 6900 5250
+F 0 "MX71" H 6933 5473 60  0000 C CNN
+F 1 "MX-NoLED" H 6933 5399 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 6275 5225 60  0001 C CNN
+F 3 "" H 6275 5225 60  0001 C CNN
+	1    6900 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 4850 6750 4850
+Wire Wire Line
+	6750 4850 6750 5400
+Connection ~ 6650 4850
+Wire Wire Line
+	6750 5400 6850 5400
+Wire Wire Line
+	7050 5200 7050 4650
+Wire Wire Line
+	7050 4650 6850 4650
+Connection ~ 6850 4650
+$Comp
+L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX70
+U 1 1 5F99CEF2
+P 6200 5250
+F 0 "MX70" H 6233 5473 60  0000 C CNN
+F 1 "MX-NoLED" H 6233 5399 20  0000 C CNN
+F 2 "MX_Only:MXOnly-2.25U-ReversedStabilizers-NoLED" H 5575 5225 60  0001 C CNN
+F 3 "" H 5575 5225 60  0001 C CNN
+	1    6200 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 4650 6350 4650
+Wire Wire Line
+	6350 4650 6350 5200
+Connection ~ 6150 4650
+Wire Wire Line
+	5950 4850 6050 4850
+Wire Wire Line
+	6050 4850 6050 5400
+Connection ~ 5950 4850
+Wire Wire Line
+	6050 5400 6150 5400
 $EndSCHEMATC
