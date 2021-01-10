@@ -166,7 +166,7 @@ F 3 "" H 2100 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:GCT-USB-4085-GF-A-Type-C U2
+L Type-C:GCT-USB-4085-GF-A U2
 U 1 1 5EF62700
 P 950 5600
 F 0 "U2" H 983 5715 50  0000 C CNN
@@ -179,8 +179,6 @@ $EndComp
 Wire Wire Line
 	1250 5850 1250 5750
 Wire Wire Line
-	1250 7250 1250 7150
-Wire Wire Line
 	1250 7050 1250 6950
 Wire Wire Line
 	1950 6450 1950 6650
@@ -189,9 +187,6 @@ Wire Wire Line
 Wire Wire Line
 	1250 6550 1800 6550
 Wire Wire Line
-	1250 7350 1250 7250
-Connection ~ 1250 7250
-Wire Wire Line
 	1250 5950 1250 6050
 Wire Wire Line
 	1250 5750 2150 5750
@@ -199,8 +194,6 @@ Wire Wire Line
 	2150 5750 2150 6250
 Wire Wire Line
 	2150 7150 1250 7150
-Connection ~ 1250 5750
-Connection ~ 1250 7150
 $Comp
 L power:GND #PWR013
 U 1 1 5EF6626F
@@ -279,7 +272,6 @@ F 3 "" H 1650 6000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1250 5950 1350 5950
-Connection ~ 1250 5950
 $Comp
 L power:VCC #PWR06
 U 1 1 5EF6E4C9
@@ -298,7 +290,6 @@ Wire Wire Line
 	1250 6950 1450 6950
 Wire Wire Line
 	1450 6950 1450 5950
-Connection ~ 1250 6950
 Wire Wire Line
 	1450 5950 1450 5550
 Connection ~ 1450 5950
@@ -554,7 +545,7 @@ F 3 "" H 4600 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX1
+L MX_Alps_Hybrid:MX-NoLED MX1
 U 1 1 5EFA79DB
 P 4600 1450
 F 0 "MX1" H 4633 1673 60  0000 C CNN
@@ -584,17 +575,6 @@ $EndComp
 Wire Wire Line
 	4550 1600 4450 1600
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX2
-U 1 1 5EFCAB6F
-P 4950 1450
-F 0 "MX2" H 4983 1673 60  0000 C CNN
-F 1 "MX-NoLED" H 4983 1599 20  0000 C CNN
-F 2 "MX_Only:MXOnly-1U-NoLED" H 4325 1425 60  0001 C CNN
-F 3 "" H 4325 1425 60  0001 C CNN
-	1    4950 1450
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D_Small D2
 U 1 1 5EFCAB75
 P 4800 1700
@@ -608,7 +588,7 @@ $EndComp
 Wire Wire Line
 	4900 1600 4800 1600
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX3
+L MX_Alps_Hybrid:MX-NoLED MX3
 U 1 1 5EFCC910
 P 5300 1450
 F 0 "MX3" H 5333 1673 60  0000 C CNN
@@ -632,7 +612,7 @@ $EndComp
 Wire Wire Line
 	5250 1600 5150 1600
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX4
+L MX_Alps_Hybrid:MX-NoLED MX4
 U 1 1 5EFD6942
 P 5650 1450
 F 0 "MX4" H 5683 1673 60  0000 C CNN
@@ -656,7 +636,7 @@ $EndComp
 Wire Wire Line
 	5600 1600 5500 1600
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX5
+L MX_Alps_Hybrid:MX-NoLED MX5
 U 1 1 5EFD694F
 P 6000 1450
 F 0 "MX5" H 6033 1673 60  0000 C CNN
@@ -680,7 +660,7 @@ $EndComp
 Wire Wire Line
 	5950 1600 5850 1600
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX6
+L MX_Alps_Hybrid:MX-NoLED MX6
 U 1 1 5EFD695C
 P 6350 1450
 F 0 "MX6" H 6383 1673 60  0000 C CNN
@@ -704,7 +684,7 @@ $EndComp
 Wire Wire Line
 	6300 1600 6200 1600
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX7
+L MX_Alps_Hybrid:MX-NoLED MX7
 U 1 1 5EFD8ECE
 P 6700 1450
 F 0 "MX7" H 6733 1673 60  0000 C CNN
@@ -728,7 +708,7 @@ $EndComp
 Wire Wire Line
 	6650 1600 6550 1600
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX8
+L MX_Alps_Hybrid:MX-NoLED MX8
 U 1 1 5EFD8EDB
 P 7050 1450
 F 0 "MX8" H 7083 1673 60  0000 C CNN
@@ -752,7 +732,7 @@ $EndComp
 Wire Wire Line
 	7000 1600 6900 1600
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX9
+L MX_Alps_Hybrid:MX-NoLED MX9
 U 1 1 5EFD8EE8
 P 7400 1450
 F 0 "MX9" H 7433 1673 60  0000 C CNN
@@ -776,7 +756,7 @@ $EndComp
 Wire Wire Line
 	7350 1600 7250 1600
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX10
+L MX_Alps_Hybrid:MX-NoLED MX10
 U 1 1 5EFFC1B9
 P 7750 1450
 F 0 "MX10" H 7783 1673 60  0000 C CNN
@@ -800,7 +780,7 @@ $EndComp
 Wire Wire Line
 	7700 1600 7600 1600
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX11
+L MX_Alps_Hybrid:MX-NoLED MX11
 U 1 1 5EFFC1C6
 P 8100 1450
 F 0 "MX11" H 8133 1673 60  0000 C CNN
@@ -824,7 +804,7 @@ $EndComp
 Wire Wire Line
 	8050 1600 7950 1600
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX12
+L MX_Alps_Hybrid:MX-NoLED MX12
 U 1 1 5EFFC1D3
 P 8450 1450
 F 0 "MX12" H 8483 1673 60  0000 C CNN
@@ -850,7 +830,7 @@ Wire Wire Line
 Text GLabel 5100 950  1    50   Input ~ 0
 COL1
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX13
+L MX_Alps_Hybrid:MX-NoLED MX13
 U 1 1 5F009E40
 P 8800 1450
 F 0 "MX13" H 8833 1673 60  0000 C CNN
@@ -874,7 +854,7 @@ $EndComp
 Wire Wire Line
 	8750 1600 8650 1600
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX14
+L MX_Alps_Hybrid:MX-NoLED MX14
 U 1 1 5F009E4D
 P 9150 1450
 F 0 "MX14" H 9183 1673 60  0000 C CNN
@@ -898,7 +878,7 @@ $EndComp
 Wire Wire Line
 	9100 1600 9000 1600
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX15
+L MX_Alps_Hybrid:MX-NoLED MX15
 U 1 1 5F009E5A
 P 9500 1450
 F 0 "MX15" H 9533 1673 60  0000 C CNN
@@ -966,7 +946,7 @@ Connection ~ 9000 1800
 Wire Wire Line
 	9000 1800 9350 1800
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX16
+L MX_Alps_Hybrid:MX-NoLED MX16
 U 1 1 5F02A6F6
 P 4600 2250
 F 0 "MX16" H 4633 2473 60  0000 C CNN
@@ -990,7 +970,7 @@ $EndComp
 Wire Wire Line
 	4550 2400 4450 2400
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX18
+L MX_Alps_Hybrid:MX-NoLED MX18
 U 1 1 5F02A710
 P 5300 2250
 F 0 "MX18" H 5333 2473 60  0000 C CNN
@@ -1014,7 +994,7 @@ $EndComp
 Wire Wire Line
 	5250 2400 5150 2400
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX19
+L MX_Alps_Hybrid:MX-NoLED MX19
 U 1 1 5F02A71D
 P 5650 2250
 F 0 "MX19" H 5683 2473 60  0000 C CNN
@@ -1038,7 +1018,7 @@ $EndComp
 Wire Wire Line
 	5600 2400 5500 2400
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX20
+L MX_Alps_Hybrid:MX-NoLED MX20
 U 1 1 5F02A72A
 P 6000 2250
 F 0 "MX20" H 6033 2473 60  0000 C CNN
@@ -1062,7 +1042,7 @@ $EndComp
 Wire Wire Line
 	5950 2400 5850 2400
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX21
+L MX_Alps_Hybrid:MX-NoLED MX21
 U 1 1 5F02A737
 P 6350 2250
 F 0 "MX21" H 6383 2473 60  0000 C CNN
@@ -1086,7 +1066,7 @@ $EndComp
 Wire Wire Line
 	6300 2400 6200 2400
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX22
+L MX_Alps_Hybrid:MX-NoLED MX22
 U 1 1 5F02A744
 P 6700 2250
 F 0 "MX22" H 6733 2473 60  0000 C CNN
@@ -1110,7 +1090,7 @@ $EndComp
 Wire Wire Line
 	6650 2400 6550 2400
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX23
+L MX_Alps_Hybrid:MX-NoLED MX23
 U 1 1 5F02A751
 P 7050 2250
 F 0 "MX23" H 7083 2473 60  0000 C CNN
@@ -1134,7 +1114,7 @@ $EndComp
 Wire Wire Line
 	7000 2400 6900 2400
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX24
+L MX_Alps_Hybrid:MX-NoLED MX24
 U 1 1 5F02A75E
 P 7400 2250
 F 0 "MX24" H 7433 2473 60  0000 C CNN
@@ -1158,7 +1138,7 @@ $EndComp
 Wire Wire Line
 	7350 2400 7250 2400
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX25
+L MX_Alps_Hybrid:MX-NoLED MX25
 U 1 1 5F02A76B
 P 7750 2250
 F 0 "MX25" H 7783 2473 60  0000 C CNN
@@ -1182,7 +1162,7 @@ $EndComp
 Wire Wire Line
 	7700 2400 7600 2400
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX26
+L MX_Alps_Hybrid:MX-NoLED MX26
 U 1 1 5F02A778
 P 8100 2250
 F 0 "MX26" H 8133 2473 60  0000 C CNN
@@ -1206,7 +1186,7 @@ $EndComp
 Wire Wire Line
 	8050 2400 7950 2400
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX27
+L MX_Alps_Hybrid:MX-NoLED MX27
 U 1 1 5F02A785
 P 8450 2250
 F 0 "MX27" H 8483 2473 60  0000 C CNN
@@ -1230,7 +1210,7 @@ $EndComp
 Wire Wire Line
 	8400 2400 8300 2400
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX28
+L MX_Alps_Hybrid:MX-NoLED MX28
 U 1 1 5F02A792
 P 8800 2250
 F 0 "MX28" H 8833 2473 60  0000 C CNN
@@ -1254,7 +1234,7 @@ $EndComp
 Wire Wire Line
 	8750 2400 8650 2400
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX29
+L MX_Alps_Hybrid:MX-NoLED MX29
 U 1 1 5F02A79F
 P 9150 2250
 F 0 "MX29" H 9183 2473 60  0000 C CNN
@@ -1278,7 +1258,7 @@ $EndComp
 Wire Wire Line
 	9100 2400 9000 2400
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX30
+L MX_Alps_Hybrid:MX-NoLED MX30
 U 1 1 5F02A7AC
 P 9500 2250
 F 0 "MX30" H 9533 2473 60  0000 C CNN
@@ -1302,7 +1282,7 @@ $EndComp
 Wire Wire Line
 	9450 2400 9350 2400
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX31
+L MX_Alps_Hybrid:MX-NoLED MX31
 U 1 1 5F03FA86
 P 4600 3050
 F 0 "MX31" H 4633 3273 60  0000 C CNN
@@ -1324,7 +1304,7 @@ F 3 "~" V 4450 3300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX44
+L MX_Alps_Hybrid:MX-NoLED MX44
 U 1 1 5F03FA93
 P 8800 3050
 F 0 "MX44" H 8833 3273 60  0000 C CNN
@@ -1359,7 +1339,7 @@ F 3 "~" V 4800 3300 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX34
+L MX_Alps_Hybrid:MX-NoLED MX34
 U 1 1 5F03FAAD
 P 5300 3050
 F 0 "MX34" H 5333 3273 60  0000 C CNN
@@ -1383,7 +1363,7 @@ $EndComp
 Wire Wire Line
 	5250 3200 5150 3200
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX35
+L MX_Alps_Hybrid:MX-NoLED MX35
 U 1 1 5F03FABA
 P 5650 3050
 F 0 "MX35" H 5683 3273 60  0000 C CNN
@@ -1407,7 +1387,7 @@ $EndComp
 Wire Wire Line
 	5600 3200 5500 3200
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX36
+L MX_Alps_Hybrid:MX-NoLED MX36
 U 1 1 5F03FAC7
 P 6000 3050
 F 0 "MX36" H 6033 3273 60  0000 C CNN
@@ -1431,7 +1411,7 @@ $EndComp
 Wire Wire Line
 	5950 3200 5850 3200
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX37
+L MX_Alps_Hybrid:MX-NoLED MX37
 U 1 1 5F03FAD4
 P 6350 3050
 F 0 "MX37" H 6383 3273 60  0000 C CNN
@@ -1455,7 +1435,7 @@ $EndComp
 Wire Wire Line
 	6300 3200 6200 3200
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX38
+L MX_Alps_Hybrid:MX-NoLED MX38
 U 1 1 5F03FAE1
 P 6700 3050
 F 0 "MX38" H 6733 3273 60  0000 C CNN
@@ -1479,7 +1459,7 @@ $EndComp
 Wire Wire Line
 	6650 3200 6550 3200
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX39
+L MX_Alps_Hybrid:MX-NoLED MX39
 U 1 1 5F03FAEE
 P 7050 3050
 F 0 "MX39" H 7083 3273 60  0000 C CNN
@@ -1503,7 +1483,7 @@ $EndComp
 Wire Wire Line
 	7000 3200 6900 3200
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX40
+L MX_Alps_Hybrid:MX-NoLED MX40
 U 1 1 5F03FAFB
 P 7400 3050
 F 0 "MX40" H 7433 3273 60  0000 C CNN
@@ -1527,7 +1507,7 @@ $EndComp
 Wire Wire Line
 	7350 3200 7250 3200
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX41
+L MX_Alps_Hybrid:MX-NoLED MX41
 U 1 1 5F03FB08
 P 7750 3050
 F 0 "MX41" H 7783 3273 60  0000 C CNN
@@ -1551,7 +1531,7 @@ $EndComp
 Wire Wire Line
 	7700 3200 7600 3200
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX42
+L MX_Alps_Hybrid:MX-NoLED MX42
 U 1 1 5F03FB15
 P 8100 3050
 F 0 "MX42" H 8133 3273 60  0000 C CNN
@@ -1575,7 +1555,7 @@ $EndComp
 Wire Wire Line
 	8050 3200 7950 3200
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX43
+L MX_Alps_Hybrid:MX-NoLED MX43
 U 1 1 5F03FB22
 P 8450 3050
 F 0 "MX43" H 8483 3273 60  0000 C CNN
@@ -1599,7 +1579,7 @@ $EndComp
 Wire Wire Line
 	8400 3200 8300 3200
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX45
+L MX_Alps_Hybrid:MX-NoLED MX45
 U 1 1 5F03FB3C
 P 9150 3050
 F 0 "MX45" H 9183 3273 60  0000 C CNN
@@ -1623,7 +1603,7 @@ $EndComp
 Wire Wire Line
 	9100 3200 9000 3200
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX46
+L MX_Alps_Hybrid:MX-NoLED MX46
 U 1 1 5F0552D6
 P 4950 3850
 F 0 "MX46" H 4983 4073 60  0000 C CNN
@@ -1647,7 +1627,7 @@ $EndComp
 Wire Wire Line
 	4900 4000 4800 4000
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX47
+L MX_Alps_Hybrid:MX-NoLED MX47
 U 1 1 5F0552E3
 P 5300 3850
 F 0 "MX47" H 5333 4073 60  0000 C CNN
@@ -1671,7 +1651,7 @@ $EndComp
 Wire Wire Line
 	5250 4000 5150 4000
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX48
+L MX_Alps_Hybrid:MX-NoLED MX48
 U 1 1 5F0552F0
 P 5650 3850
 F 0 "MX48" H 5683 4073 60  0000 C CNN
@@ -1695,7 +1675,7 @@ $EndComp
 Wire Wire Line
 	5600 4000 5500 4000
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX49
+L MX_Alps_Hybrid:MX-NoLED MX49
 U 1 1 5F0552FD
 P 6000 3850
 F 0 "MX49" H 6033 4073 60  0000 C CNN
@@ -1719,7 +1699,7 @@ $EndComp
 Wire Wire Line
 	5950 4000 5850 4000
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX50
+L MX_Alps_Hybrid:MX-NoLED MX50
 U 1 1 5F05530A
 P 6350 3850
 F 0 "MX50" H 6383 4073 60  0000 C CNN
@@ -1743,7 +1723,7 @@ $EndComp
 Wire Wire Line
 	6300 4000 6200 4000
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX51
+L MX_Alps_Hybrid:MX-NoLED MX51
 U 1 1 5F055317
 P 6700 3850
 F 0 "MX51" H 6733 4073 60  0000 C CNN
@@ -1767,7 +1747,7 @@ $EndComp
 Wire Wire Line
 	6650 4000 6550 4000
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX52
+L MX_Alps_Hybrid:MX-NoLED MX52
 U 1 1 5F055324
 P 7050 3850
 F 0 "MX52" H 7083 4073 60  0000 C CNN
@@ -1791,7 +1771,7 @@ $EndComp
 Wire Wire Line
 	7000 4000 6900 4000
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX53
+L MX_Alps_Hybrid:MX-NoLED MX53
 U 1 1 5F055331
 P 7400 3850
 F 0 "MX53" H 7433 4073 60  0000 C CNN
@@ -1815,7 +1795,7 @@ $EndComp
 Wire Wire Line
 	7350 4000 7250 4000
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX54
+L MX_Alps_Hybrid:MX-NoLED MX54
 U 1 1 5F05533E
 P 7750 3850
 F 0 "MX54" H 7783 4073 60  0000 C CNN
@@ -1839,7 +1819,7 @@ $EndComp
 Wire Wire Line
 	7700 4000 7600 4000
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX55
+L MX_Alps_Hybrid:MX-NoLED MX55
 U 1 1 5F05534B
 P 8100 3850
 F 0 "MX55" H 8133 4073 60  0000 C CNN
@@ -1863,7 +1843,7 @@ $EndComp
 Wire Wire Line
 	8050 4000 7950 4000
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX56
+L MX_Alps_Hybrid:MX-NoLED MX56
 U 1 1 5F055358
 P 8450 3850
 F 0 "MX56" H 8483 4073 60  0000 C CNN
@@ -1887,7 +1867,7 @@ $EndComp
 Wire Wire Line
 	8400 4000 8300 4000
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX58
+L MX_Alps_Hybrid:MX-NoLED MX58
 U 1 1 5F055372
 P 9150 3850
 F 0 "MX58" H 9183 4073 60  0000 C CNN
@@ -1911,7 +1891,7 @@ $EndComp
 Wire Wire Line
 	9100 4000 9000 4000
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX59
+L MX_Alps_Hybrid:MX-NoLED MX59
 U 1 1 5F05537F
 P 9500 3050
 F 0 "MX59" H 9533 3273 60  0000 C CNN
@@ -1948,7 +1928,7 @@ $EndComp
 Wire Wire Line
 	8750 4000 8650 4000
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX57
+L MX_Alps_Hybrid:MX-NoLED MX57
 U 1 1 5F055365
 P 8800 3850
 F 0 "MX57" H 8833 4073 60  0000 C CNN
@@ -1972,7 +1952,7 @@ $EndComp
 Wire Wire Line
 	5250 4850 5150 4850
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX62
+L MX_Alps_Hybrid:MX-NoLED MX62
 U 1 1 5F087772
 P 6000 4700
 F 0 "MX62" H 6033 4923 60  0000 C CNN
@@ -1993,10 +1973,8 @@ F 3 "~" V 5850 4950 50  0001 C CNN
 	1    5850 4950
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5950 4850 5850 4850
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX63
+L MX_Alps_Hybrid:MX-NoLED MX63
 U 1 1 5F08777F
 P 6700 4700
 F 0 "MX63" H 6733 4923 60  0000 C CNN
@@ -2017,10 +1995,8 @@ F 3 "~" V 6550 4950 50  0001 C CNN
 	1    6550 4950
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6650 4850 6550 4850
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX64
+L MX_Alps_Hybrid:MX-NoLED MX64
 U 1 1 5F087799
 P 7400 4700
 F 0 "MX64" H 7433 4923 60  0000 C CNN
@@ -2057,7 +2033,7 @@ $EndComp
 Wire Wire Line
 	8050 4850 7950 4850
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX67
+L MX_Alps_Hybrid:MX-NoLED MX67
 U 1 1 5F0877DA
 P 8800 4700
 F 0 "MX67" H 8833 4923 60  0000 C CNN
@@ -2107,7 +2083,7 @@ $EndComp
 Wire Wire Line
 	9450 4000 9350 4000
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX61
+L MX_Alps_Hybrid:MX-NoLED MX61
 U 1 1 5F087758
 P 5300 4700
 F 0 "MX61" H 5333 4923 60  0000 C CNN
@@ -2118,7 +2094,7 @@ F 3 "" H 4675 4675 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX65
+L MX_Alps_Hybrid:MX-NoLED MX65
 U 1 1 5F0877B3
 P 8100 4700
 F 0 "MX65" H 8133 4923 60  0000 C CNN
@@ -2238,16 +2214,6 @@ Wire Wire Line
 Connection ~ 8650 4200
 Text GLabel 4050 5050 0    50   Input ~ 0
 ROW4
-Wire Wire Line
-	5100 950  5100 1400
-Wire Wire Line
-	4750 2200 4750 3000
-Wire Wire Line
-	5450 1400 5450 950 
-Wire Wire Line
-	5800 1400 5800 950 
-Wire Wire Line
-	5450 3000 5450 2200
 Text GLabel 5450 950  1    50   Input ~ 0
 COL2
 Text GLabel 5800 950  1    50   Input ~ 0
@@ -2274,76 +2240,6 @@ Text GLabel 9300 950  1    50   Input ~ 0
 COL13
 Text GLabel 9650 950  1    50   Input ~ 0
 COL14
-Wire Wire Line
-	6150 950  6150 1400
-Wire Wire Line
-	5800 2200 5800 3000
-Connection ~ 5450 3000
-Wire Wire Line
-	5800 3000 5800 3800
-Wire Wire Line
-	6500 1400 6500 950 
-Connection ~ 5800 3000
-Wire Wire Line
-	6150 3000 6150 2200
-Wire Wire Line
-	6150 3800 6150 3000
-Wire Wire Line
-	6850 950  6850 1400
-Wire Wire Line
-	6500 2200 6500 3000
-Connection ~ 6150 3000
-Wire Wire Line
-	6500 3000 6500 3800
-Wire Wire Line
-	6850 3800 6850 3000
-Wire Wire Line
-	7200 1400 7200 950 
-Connection ~ 6500 3000
-Wire Wire Line
-	6850 3000 6850 2200
-Wire Wire Line
-	7550 950  7550 1400
-Wire Wire Line
-	7200 2200 7200 3000
-Connection ~ 6850 3000
-Wire Wire Line
-	7200 3000 7200 3800
-Wire Wire Line
-	7550 3800 7550 3000
-Wire Wire Line
-	7900 1400 7900 950 
-Connection ~ 7200 3000
-Wire Wire Line
-	7550 3000 7550 2200
-Wire Wire Line
-	8250 950  8250 1400
-Wire Wire Line
-	7900 2200 7900 3000
-Connection ~ 7550 3000
-Wire Wire Line
-	7900 3000 7900 3800
-Wire Wire Line
-	8250 3800 8250 3000
-Wire Wire Line
-	8600 1400 8600 950 
-Connection ~ 7900 3000
-Wire Wire Line
-	8250 3000 8250 2200
-Wire Wire Line
-	8950 950  8950 1400
-Wire Wire Line
-	8600 2200 8600 3000
-Connection ~ 8250 3000
-Wire Wire Line
-	8600 3000 8600 3800
-Connection ~ 8600 3000
-Wire Wire Line
-	8950 3000 8950 2200
-Wire Wire Line
-	8950 3800 8950 3000
-Wire Wire Line
-	9300 950  9300 1400
 Wire Wire Line
 	9650 1400 9650 950 
 Text Notes 4550 1150 0    50   ~ 0
@@ -2372,8 +2268,6 @@ Text Notes 8750 1150 0    50   ~ 0
 -
 Text Notes 9100 1150 0    50   ~ 0
 =
-Wire Wire Line
-	4750 950  4750 1400
 Text Notes 9400 1150 0    50   ~ 0
 BKSP
 Text Notes 4950 1150 0    50   ~ 0
@@ -2382,57 +2276,6 @@ Text Notes 4550 1950 0    50   ~ 0
 M1
 Text Notes 4550 2750 0    50   ~ 0
 M2
-Wire Wire Line
-	4750 1400 4750 2200
-Connection ~ 4750 1400
-Connection ~ 4750 2200
-Wire Wire Line
-	5450 2200 5450 1400
-Wire Wire Line
-	5800 1400 5800 2200
-Connection ~ 5450 1400
-Wire Wire Line
-	6150 2200 6150 1400
-Connection ~ 5800 2200
-Connection ~ 5800 1400
-Wire Wire Line
-	6500 1400 6500 2200
-Connection ~ 6150 2200
-Connection ~ 6150 1400
-Wire Wire Line
-	6850 1400 6850 2200
-Connection ~ 6500 1400
-Connection ~ 6500 2200
-Wire Wire Line
-	7200 2200 7200 1400
-Connection ~ 6850 2200
-Connection ~ 6850 1400
-Wire Wire Line
-	7550 1400 7550 2200
-Connection ~ 7200 1400
-Connection ~ 7200 2200
-Wire Wire Line
-	7900 2200 7900 1400
-Connection ~ 7550 2200
-Connection ~ 7550 1400
-Wire Wire Line
-	8250 1400 8250 2200
-Connection ~ 7900 1400
-Connection ~ 7900 2200
-Wire Wire Line
-	8600 2200 8600 1400
-Connection ~ 8250 2200
-Connection ~ 8250 1400
-Wire Wire Line
-	8950 1400 8950 2200
-Connection ~ 8600 1400
-Connection ~ 8600 2200
-Wire Wire Line
-	9300 2200 9300 1400
-Connection ~ 8950 2200
-Connection ~ 8950 1400
-Wire Wire Line
-	9650 2200 9650 1400
 Connection ~ 9650 1400
 Text Notes 5250 1950 0    50   ~ 0
 Q
@@ -2460,7 +2303,6 @@ Text Notes 9100 1950 0    50   ~ 0
 ]
 Text Notes 9450 1950 0    50   ~ 0
 \
-Connection ~ 9300 1400
 Wire Wire Line
 	4450 2600 4800 2600
 Wire Wire Line
@@ -2489,8 +2331,6 @@ Text Notes 8750 2750 0    50   ~ 0
 '
 Text Notes 9000 2750 0    50   ~ 0
 ENTER
-Connection ~ 9650 2200
-Connection ~ 5450 2200
 Text Notes 4850 2750 0    50   ~ 0
 CAPS
 Text Notes 4850 3550 0    50   ~ 0
@@ -2535,7 +2375,7 @@ F 3 "~" V 4800 4950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX60
+L MX_Alps_Hybrid:MX-NoLED MX60
 U 1 1 5F08773E
 P 4950 4700
 F 0 "MX60" H 4983 4923 60  0000 C CNN
@@ -2568,16 +2408,8 @@ Wire Wire Line
 Connection ~ 5150 5050
 Wire Wire Line
 	5150 5050 5850 5050
-Wire Wire Line
-	5100 3800 5100 3000
-Wire Wire Line
-	5450 3800 5450 3000
-Connection ~ 5100 1400
-Wire Wire Line
-	6850 4650 6850 3800
-Connection ~ 8950 3000
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX17
+L MX_Alps_Hybrid:MX-NoLED MX17
 U 1 1 5F633EF4
 P 4950 2250
 F 0 "MX17" H 4983 2473 60  0000 C CNN
@@ -2587,9 +2419,6 @@ F 3 "" H 4325 2225 60  0001 C CNN
 	1    4950 2250
 	1    0    0    -1  
 $EndComp
-Connection ~ 5100 2200
-Wire Wire Line
-	5100 2200 5100 1400
 Wire Wire Line
 	4900 2400 4800 2400
 $Comp
@@ -2609,7 +2438,7 @@ Wire Wire Line
 Text Notes 4850 1950 0    50   ~ 0
 TAB
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX32
+L MX_Alps_Hybrid:MX-NoLED MX32
 U 1 1 5F6BAE98
 P 4950 3050
 F 0 "MX32" H 4983 3273 60  0000 C CNN
@@ -2620,7 +2449,7 @@ F 3 "" H 4325 3025 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX66
+L MX_Alps_Hybrid:MX-NoLED MX66
 U 1 1 5F7C12DB
 P 8450 4700
 F 0 "MX66" H 8483 4923 60  0000 C CNN
@@ -2630,8 +2459,6 @@ F 3 "" H 7825 4675 60  0001 C CNN
 	1    8450 4700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8950 4650 8950 3800
 Wire Wire Line
 	8400 4850 8300 4850
 $Comp
@@ -2698,15 +2525,13 @@ D+
 Text GLabel 2700 4200 2    50   Input ~ 0
 boot
 Connection ~ 5100 3000
-Wire Wire Line
-	5100 3000 5100 2200
 Connection ~ 4800 3400
 Wire Wire Line
 	4800 3200 4900 3200
 Wire Wire Line
 	4800 3400 5150 3400
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX33
+L MX_Alps_Hybrid:MX-NoLED MX33
 U 1 1 5F03FAA0
 P 4200 2800
 F 0 "MX33" H 4233 3023 60  0000 C CNN
@@ -2734,27 +2559,11 @@ Wire Wire Line
 	9000 4200 9350 4200
 Wire Wire Line
 	4050 4200 4800 4200
-Connection ~ 9300 2200
-Wire Wire Line
-	5450 4650 5450 3800
-Connection ~ 5450 3800
-Wire Wire Line
-	6150 4650 6150 3800
-Connection ~ 6150 3800
-Wire Wire Line
-	7550 4650 7550 3800
-Wire Wire Line
-	8250 4650 8250 3800
-Wire Wire Line
-	8600 4650 8600 3800
 Connection ~ 4800 5050
 Wire Wire Line
 	4800 5050 5150 5050
 Wire Wire Line
 	4050 5050 4800 5050
-Wire Wire Line
-	5100 4650 5100 3800
-Connection ~ 5100 3800
 Wire Wire Line
 	4800 3200 4800 3150
 Wire Wire Line
@@ -2762,17 +2571,14 @@ Wire Wire Line
 Connection ~ 4800 3200
 Wire Wire Line
 	4150 3150 4150 2950
-Connection ~ 6850 3800
 Connection ~ 6550 5050
 Connection ~ 5850 5050
 Wire Wire Line
 	5850 5050 6550 5050
 Connection ~ 7250 5050
-Connection ~ 7550 3800
 Wire Wire Line
 	6550 5050 7250 5050
 Connection ~ 7950 5050
-Connection ~ 8250 3800
 Wire Wire Line
 	7250 5050 7950 5050
 Text GLabel 2700 1700 2    50   Input ~ 0
@@ -2805,14 +2611,6 @@ Connection ~ 2100 800
 Connection ~ 9000 3400
 Wire Wire Line
 	9000 3400 9350 3400
-Connection ~ 9300 3000
-Wire Wire Line
-	9300 3000 9300 2200
-Wire Wire Line
-	9650 2200 9650 3000
-Connection ~ 9650 3000
-Wire Wire Line
-	9650 3000 9650 3800
 Wire Wire Line
 	7950 5050 8300 5050
 Text GLabel 2700 3000 2    50   Input ~ 0
@@ -2822,13 +2620,11 @@ ROW1
 Text GLabel 2700 1800 2    50   Input ~ 0
 ROW3
 Connection ~ 8300 5050
-Connection ~ 8600 3800
 Wire Wire Line
 	8300 5050 8650 5050
 Connection ~ 8650 5050
 Wire Wire Line
 	8650 5050 9000 5050
-Connection ~ 8950 3800
 Text GLabel 9750 5400 0    50   Input ~ 0
 EN2
 Text GLabel 9750 5200 0    50   Input ~ 0
@@ -3019,7 +2815,7 @@ F 3 "~" H 6350 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX68
+L MX_Alps_Hybrid:MX-NoLED MX68
 U 1 1 5F0877E7
 P 9150 4700
 F 0 "MX68" H 9183 4923 60  0000 C CNN
@@ -3030,7 +2826,7 @@ F 3 "" H 8525 4675 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX69
+L MX_Alps_Hybrid:MX-NoLED MX69
 U 1 1 5F0877F4
 P 9500 3850
 F 0 "MX69" H 9533 4073 60  0000 C CNN
@@ -3041,17 +2837,9 @@ F 3 "" H 8875 3825 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9650 3800 9650 4850
-Wire Wire Line
 	9650 4850 10500 4850
-Connection ~ 9650 3800
-Wire Wire Line
-	9300 3000 9300 3800
-Connection ~ 9300 3800
-Wire Wire Line
-	9300 3800 9300 4650
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX71
+L MX_Alps_Hybrid:MX-NoLED MX71
 U 1 1 5F95CADB
 P 6900 5250
 F 0 "MX71" H 6933 5473 60  0000 C CNN
@@ -3062,19 +2850,15 @@ F 3 "" H 6275 5225 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6650 4850 6750 4850
-Wire Wire Line
 	6750 4850 6750 5400
-Connection ~ 6650 4850
 Wire Wire Line
 	6750 5400 6850 5400
 Wire Wire Line
 	7050 5200 7050 4650
 Wire Wire Line
 	7050 4650 6850 4650
-Connection ~ 6850 4650
 $Comp
-L keyboard-rescue:MX-NoLED-MX_Alps_Hybrid MX70
+L MX_Alps_Hybrid:MX-NoLED MX70
 U 1 1 5F99CEF2
 P 6200 5250
 F 0 "MX70" H 6233 5473 60  0000 C CNN
@@ -3088,12 +2872,60 @@ Wire Wire Line
 	6150 4650 6350 4650
 Wire Wire Line
 	6350 4650 6350 5200
-Connection ~ 6150 4650
-Wire Wire Line
-	5950 4850 6050 4850
 Wire Wire Line
 	6050 4850 6050 5400
-Connection ~ 5950 4850
 Wire Wire Line
 	6050 5400 6150 5400
+Wire Wire Line
+	1250 7150 1250 7350
+Wire Wire Line
+	5850 4850 6050 4850
+Wire Wire Line
+	6550 4850 6750 4850
+Wire Wire Line
+	4750 950  4750 3000
+Wire Wire Line
+	5100 3000 5100 4650
+Wire Wire Line
+	5100 950  5100 3000
+Wire Wire Line
+	5450 950  5450 1400
+Wire Wire Line
+	5800 950  5800 3800
+Wire Wire Line
+	6150 950  6150 4650
+Wire Wire Line
+	6500 950  6500 3800
+Wire Wire Line
+	6850 950  6850 4650
+Wire Wire Line
+	7200 950  7200 3800
+Wire Wire Line
+	7550 950  7550 4650
+Wire Wire Line
+	7900 950  7900 3800
+Wire Wire Line
+	8250 950  8250 4650
+Wire Wire Line
+	8600 950  8600 4650
+Wire Wire Line
+	8950 950  8950 4650
+Wire Wire Line
+	9300 950  9300 4650
+Wire Wire Line
+	9650 1400 9650 4850
+$Comp
+L MX_Alps_Hybrid:MX-NoLED MX2
+U 1 1 5EFCAB6F
+P 4950 1450
+F 0 "MX2" H 4983 1673 60  0000 C CNN
+F 1 "MX-NoLED" H 4983 1599 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-NoLED" H 4325 1425 60  0001 C CNN
+F 3 "" H 4325 1425 60  0001 C CNN
+	1    4950 1450
+	1    0    0    -1  
+$EndComp
+Connection ~ 5450 1400
+Wire Wire Line
+	5450 1400 5450 4650
 $EndSCHEMATC
