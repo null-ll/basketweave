@@ -10,4 +10,4 @@ Through-hole Alice-style keyboard with arrow keys and a rotary encoder
 
 
 ### BOM and Build Guide
-Coming soon
+[Build Guide](doc/build.md)
