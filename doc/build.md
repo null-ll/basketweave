@@ -18,7 +18,7 @@ The following components are included in the Basketweave keyboard kit:
 | C1, C2  | 22pF Capacitor         | 2 
 | C3, C4  | 0.1uF Capacitor        | 2
 | C5      | 4.7uF Capacitor        | 1
-| D1-68, D71   | 1n4148 Diode      | 69
+| D1-68, D71-72   | 1n4148 Diode      | 69
 | D69, D70 | 3.6V Zener Diode      | 2  | Keep separate from the 1n4148 diodes
 | FUSE    | 500mA Resettable fuse  | 1
 | ISP     | 6 pin header           | 1
@@ -57,7 +57,7 @@ Orientation does not matter. Solder based on the labeled values.
 | R6     | 10k   |
 ![Resistors](https://i.imgur.com/sZXMwDM.jpg)
 
-### Step 3. 1n1418 Diodes (D1-68, D71)
+### Step 3. 1n1418 Diodes (D1-68, D71-72)
 **This part has a specific orientation** - black line on the diode lines up with the square pad (points up)
 ![Diodes](https://i.imgur.com/tWNR7mo.jpg)
 
