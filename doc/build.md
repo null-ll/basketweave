@@ -47,7 +47,7 @@ The following components are included in the Basketweave keyboard kit:
 **This part has specific orientation** - black line on the diode lines up with the square pad (points left)
 ![Zener Diodes](https://i.imgur.com/sDhJDcs.jpg)
 
-### Step 2. Resistors (R1-8)
+### Step 2. Resistors (R1-7)
 Orientation does not matter. Solder based on the labeled values.
 | Ref    | Value |
 | ------ | ----- |
