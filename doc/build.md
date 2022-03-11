@@ -44,7 +44,7 @@ The following components are included in the Basketweave keyboard kit:
 |         | Switch plate           | 1
 
 ### Step 1. Zener Diodes (D69, D70)
-**This part has specific orientation** - black line on the diode lines up with the square pad (points left)
+**This part has specific orientation** - black line on the diode lines up with the square pad (points right)
 ![Zener Diodes](https://i.imgur.com/sDhJDcs.jpg)
 
 ### Step 2. Resistors (R1-7)
@@ -96,7 +96,7 @@ Align the notch on the IC Socket with the markings on the PCB.
 ![Push button and IC socket](https://i.imgur.com/4VjGMYQ.jpg)
 
 ### Step 11. Pin Header
-Orientation does not matter. 
+Orientation does not matter. Longer pins on top.
 ![Pin header](https://i.imgur.com/YeHUMEr.jpg)
 
 ### Step 12. ATmega32A
