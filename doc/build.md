@@ -17,14 +17,14 @@ The following components are included in the Basketweave keyboard kit:
 | ---     | ---------              | --- | ----- |
 | C1, C2  | 22pF Capacitor         | 2 
 | C3, C4  | 0.1uF Capacitor        | 2
-| C5      | 4.7uF Capacitor        | 1
+| C5      | 4.7uF Capacitor        | 1 | The footprint on the PCB is meant for an electrolytic capacitor - ceramic will work but will be awkward to fit.
 | D1-68, D72   | 1n4148 Diode      | 69
 | D69, D70 | 3.6V Zener Diode      | 2  | Keep separate from the 1n4148 diodes
 | FUSE    | 500mA Resettable fuse  | 1
 | ISP     | 6 pin header           | 1
 | USB     | GCT USB4085 USB C port     | 1
 | POWER   | 3mm LED                | 1
-| R1, R7  | 1.5k Resistor          | 2 
+| R1, R7  | 1.5k Resistor          | 2 | Make sure to get 1/8 Watt resistors since 1/4 (a common power rating) is too big for the footprint.
 | R2, R5  | 5.1k Resistor          | 2 
 | R3, R4  | 75 Resistor            | 2 
 | R6      | 10k Resistor           | 1 
